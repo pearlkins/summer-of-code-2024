@@ -1,0 +1,191 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+.login_box{
+    height:552px;
+    width:552px;
+    position: relative;
+    top:10px;
+    left:500px;
+    background-color: white;
+    margin-top: 85px;
+    border-radius: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    
+
+    
+
+}
+
+body{
+    background-color:#ff5e5b;
+    
+}
+
+
+.company_div{
+    /* position:fixed; */
+    position:relative;
+
+    top:50px;
+    left:60px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#00afb9;
+    
+}
+
+.login_text{
+    position: relative;
+    top:55px;
+    left:60px;
+    font-size: 30px;
+    font-weight: 700;
+    color:#00afb9;
+
+}
+
+.email_div{
+    position:absolute;
+    top:140px;
+    left:60px;
+    font-size: 17px;
+    
+    color:#00afb9;
+
+}
+
+.email_input{
+    height:30px;
+    width:400px;
+    position:absolute;
+    left:60px;
+    top: 160px;
+    border-radius: 4px;
+    border-color: #fed9b7;
+  
+
+}
+input:focus {
+    border-color: #007BFF; /* Change border color on focus for better visibility */
+    outline: none; /* Remove default outline */
+}
+   
+
+.password_div{
+    position:absolute;
+    top: 210px;
+    left:60px;
+    font-size: 17px;
+    
+    color:#00afb9;
+
+
+}
+
+.password_input{
+    height:30px;
+    width:400px;
+    position:absolute;
+    left:60px;
+    top: 230px;
+    border-radius: 4px;
+    border-color: #fed9b7;
+
+}
+
+.forgot{
+    position:absolute;
+    left:60px;
+    top:263px;
+    color:#00afb9;
+    font-size: 15px;
+
+
+}
+
+.sign_button{
+    position:absolute;
+    left:60px;
+    top:315px;
+    height:35px;
+    width: 400px;
+    background-color: #fed9b7;
+    border-color: #fed9b7;
+    border-radius: 4px;
+    box-shadow: none; 
+    color:#ff5e5b;
+    font-weight: 600;
+    
+
+    
+}
+
+.continue_div{
+    position:absolute;
+    left:210px;
+    top:352px;
+    color:#00afb9;
+    font-size: 15px;
+
+
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.google_button{
+    position:absolute;
+    left:60px;
+    top:395px;
+    height: 30px;
+    width:185px;
+    background-color: #007BFF;
+    border-radius: 4px;
+    box-shadow: none; 
+    border-color: #007BFF;
+
+}
+
+.fb_button{
+    position:absolute;
+    left:275px;
+    top:395px;
+    height: 30px;
+    width:185px;
+    background-color: #007BFF;
+    border-radius: 4px;
+    box-shadow: none; 
+    border-color: #007BFF;
+}
+
+.account_div{
+    position:absolute;
+    left:117px;
+    top:430px;
+    color:#00afb9;
+
+
+
+}
+
+.link_reg{
+    color:#ff5e5b;
+}
+.pss{
+    color:#00afb9;
+
+}
+
+/* to do later, add eye for viewing password */
